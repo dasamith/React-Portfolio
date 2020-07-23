@@ -1,110 +1,83 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import profilepic from "./image/pic.jpg"
 
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link
-} from "react-router-dom";
-
-function home() {
+function Home() {
     return (
         <div>
-
             <header>
-                <h1 className="Headername">Portfolio</h1>
-                <div className="linkcontainer">
+                <h1 class="Headername">Amith Das</h1>
+                <div class="linkcontainer">
 
-                    <a className="Links" href="https://github.com/dasamith">Github</a>
-                    <a className="Links" href="https://www.linkedin.com/in/amith-das-1775b1170">Linkdin</a>
+                    <a class="Links" href="https://github.com/dasamith">Github</a>
+                    <a class="Links" href="https://www.linkedin.com/in/amith-das-1775b1170">Linkdin</a>
                 </div>
             </header>
 
-            <div className="container">
-                <nav className="navbar navbar-expand-lg navbar-light bg-light">
-                    <a className="navbar-brand" href="../index.html">About</a>
-                    <button className="navbar-toggler" type="button" data-toggle="collapse"
-                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon"></span>
+
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <a class="navbar-brand" href="/">Home</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
                     </button>
 
-                    <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul className="navbar-nav mr-auto">
-                            <li className="nav-item active">
-                                <a className="nav-link" href="#">Portfolio <span class="sr-only">(current)</span></a>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="/portfolio">Portfolio <span
+                                    class="sr-only">(current)</span></a>
                             </li>
-                            <li className="nav-item">
-                                <a className="nav-link" href="contact.html">Contact</a>
+                            <li class="nav-item">
+                                <a class="nav-link" href="assets/contact.html">Contact</a>
                             </li>
-
-
                         </ul>
 
                     </div>
                 </nav>
 
-                <div className="row">
-                    <div className="img">
-                        <br>
-                            <h2>Meal & Sips</h2>
-                            <a href="https://wayele.github.io/meals_and_sips/">
-                                <img src="../image/MealPrep.JPG" class="w3-border" alt="Norway" style="padding:4px;width:100%">
-                    </a>
-                </div>
 
-                            <div className="img">
-                                <br>
-                                    <h2>note-taker</h2>
-                                    <a href="https://note-taker-ad.herokuapp.com/notes/">
-                                        <img src="../image/note-taker.png" class="w3-border" alt="Norway"
-                                            style="padding:4px;width:100%">
-                    </a>
-                </div>
-                                    <div className="img">
-                                        <br>
-                                            <h2>Weather App</h2>
-                                            <a href="https://dasamith.github.io/Weather-Dashboard/">
-                                                <img src="../image/WeatherApp.JPG" class="w3-border" alt="Norway"
-                                                    style="padding:4px;width:100%">
-                    </a>
-                </div>
-                                            <div className="img">
-                                                <br>
-                                                    <h2>Work Day Scheduler</h2>
-                                                    <a href="https://dasamith.github.io/homework5/">
-                                                        <img src="../image/todo.JPG" class="w3-border" alt="Norway" style="padding:4px;width:100%">
-                    </a>
-                </div>
-                                                    <div className="img">
-                                                        <br>
-                                                            <h2>online-offline-Budget-Trackers</h2>
-                                                            <a href="https://online-offline-budgettracker.herokuapp.com/">
-                                                                <img src="../image/online-offline-Budget-Trackers.png" class="w3-border" alt="Norway"
-                                                                    style="padding:4px;width:100%">
-                    </a>
-                </div>
+                <section>
+                    <nav className='nav2'>
+                        <img src={profilepic} width="220" height="220"></img>
+                        <p>2515 W walnut st, Colmar,PA 18915.</p>
+                        <p>Cell phone: 267-498-8404</p>
+                        <p>Email: amith123.ad@gmail.com</p>
+                        <p>A dedicated and inspired web designer and an Information Technology Enthusiast.</p>
+                    </nav>
+                    <article>
 
-                                                            <div className="img">
-                                                                <br>
-                                                                    <h2>employee-directory</h2>
-                                                                    <a href="https://employee-directory1000.herokuapp.com/">
-                                                                        <img src="../image/employee-directory.jpg" class="w3-border" alt="Norway"
-                                                                            style="padding:4px;width:100%">
-                    </a>
-                </div>
+                        <div class="Education">
+                            <p class="edu1">
+                                <h3>Penn LPS (College of liberal and Professional studies)</h3>
+                                <li>Penn LPS Coding React & Node JS Bootcamp Certification</li>
+                                <li>Technologies: Github, html, css, javascript, express, react, bootstrap, SQL, mongodb, devops
+                    </li>
+                            </p>
+                            <p class="edu2">
+                                <h3>Montgomery County Community college, Bluebell PA</h3>
+                                <li>Computer Science</li>
 
+                            </p>
+                        </div>
+
+                        <div class="Experiaence">
+
+                            <p class="job1">
+                                <h3>Assembler/Packer
+                                Curtiss Wright/ EST Group
+                        September 2017- present</h3>
+                                <li>Mark and label containers, containertags, or products, using marking tools.</li>
+                                <li>Measure, weigh, and count products and materials.</li>
+                                <li>Examine and inspect materials, and products</li>
+                            </p>
+
+                        </div>
+                    </article>
+                </section>
             </div>
-                                                            </div>
-
-                                                            <div className="footer">
-
-                                                            </div>
-    </div>
-       
+        </div>
     );
 }
 
-export default home;
+export default Home;

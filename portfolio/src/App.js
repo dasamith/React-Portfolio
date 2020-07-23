@@ -8,6 +8,12 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import Portfolio from './portfolio';
+import Home from "./home";
+import Contact from "./contact";
+import "./style.css"
+
+
 
 function App() {
   return (
@@ -17,12 +23,13 @@ function App() {
         <Route exact path="/">
           <Home />
         </Route>
-        <Route path="/about">
-          <About />
+        <Route exact path="/portfolio">
+          <Portfolio />
         </Route>
-        <Route path="/dashboard">
-          <Dashboard />
+        <Route exact path="/contact">
+          <Contact />
         </Route>
+
       </Switch>
 
     </Router >
