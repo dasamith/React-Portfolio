@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.00ff5823.chunk.css",
+    "main.js": "/static/js/main.bba6f31c.chunk.js",
+    "main.js.map": "/static/js/main.bba6f31c.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
+    "static/js/2.3aa457b6.chunk.js": "/static/js/2.3aa457b6.chunk.js",
+    "static/js/2.3aa457b6.chunk.js.map": "/static/js/2.3aa457b6.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.e3ed90bd61268a627afc5d96bf1262a6.js": "/precache-manifest.e3ed90bd61268a627afc5d96bf1262a6.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.00ff5823.chunk.css.map": "/static/css/main.00ff5823.chunk.css.map",
+    "static/js/2.3aa457b6.chunk.js.LICENSE.txt": "/static/js/2.3aa457b6.chunk.js.LICENSE.txt",
+    "static/media/MealPrep.JPG": "/static/media/MealPrep.bdba4bba.JPG",
+    "static/media/WeatherApp.JPG": "/static/media/WeatherApp.b350eff5.JPG",
+    "static/media/employee-directory.jpg": "/static/media/employee-directory.64edfa8a.jpg",
+    "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg",
+    "static/media/note-taker.png": "/static/media/note-taker.850e6490.png",
+    "static/media/online-offline-Budget-Trackers.png": "/static/media/online-offline-Budget-Trackers.1584b492.png",
+    "static/media/pic.jpg": "/static/media/pic.9ac3b7b9.jpg",
+    "static/media/workdayscheduler.JPG": "/static/media/workdayscheduler.8f137c55.JPG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.19ccc7f6.js",
+    "static/js/2.3aa457b6.chunk.js",
+    "static/css/main.00ff5823.chunk.css",
+    "static/js/main.bba6f31c.chunk.js"
+  ]
+}

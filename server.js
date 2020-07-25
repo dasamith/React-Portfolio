@@ -12,6 +12,8 @@ app.use(express.static("client/build"));
 // }
 
 // Define API routes here
+// TO CHECK HEROKU LOGS heroku logs -a reactportfolio10
+
 
 // Send every other request to the React app
 // Define any API routes before this runs
