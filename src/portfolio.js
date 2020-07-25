@@ -43,7 +43,7 @@ function home() {
                                 <a className="nav-link" href="#">Portfolio <span class="sr-only">(current)</span></a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="contact.html">Contact</a>
+                                <a className="nav-link" href='/contact'>Contact</a>
                             </li>
 
 
